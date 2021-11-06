@@ -1,0 +1,5679 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<?fr-application created="PROAsistemas"?>
+<?fr-application homesite="http://www.fast-report.com"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title>Helisa NIIF - Balance de prueba Niif</Title>
+<Author>PROAsistemas</Author>
+<Created>19/03/2019T11:34:52 a. m.Z</Created>
+<Version>1.0.0.0</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s0">
+<Font ss:FontName="Lucida Sans" ss:Size="14" ss:Color="#000080" ss:Bold="1" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000080" />
+</Borders>
+</Style>
+<Style ss:ID="s1">
+<Font ss:FontName="Lucida Sans" ss:Size="14" ss:Color="#000080" ss:Bold="1" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s2">
+<Font ss:FontName="Lucida Sans" ss:Size="10" ss:Color="#000080"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s3">
+<Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s4">
+<Font ss:FontName="Arial" ss:Size="1" ss:Color="#000000"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s5">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s6">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s7">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s8">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s9">
+<Font ss:FontName="Arial" ss:Size="1" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3" ss:Color="#008080" />
+</Borders>
+</Style>
+<Style ss:ID="s10">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s11">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s12">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#FF0000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s13">
+<Font ss:FontName="Lucida Sans" ss:Size="14" ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s14">
+<Font ss:FontName="Lucida Sans" ss:Size="14" ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s15">
+<Font ss:FontName="Lucida Sans" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s16">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s17">
+<Font ss:FontName="MS Sans Serif" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+</Styles>
+<Worksheet ss:Name="pgnPrincipal">
+<Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="316" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="0" ss:Width="27.19"/>
+<Column ss:AutoFitWidth="0" ss:Width="29.12"/>
+<Column ss:AutoFitWidth="0" ss:Width="44.96"/>
+<Column ss:AutoFitWidth="0" ss:Width="136.05"/>
+<Column ss:AutoFitWidth="0" ss:Width="82.13"/>
+<Column ss:AutoFitWidth="0" ss:Width="16.53"/>
+<Column ss:AutoFitWidth="0" ss:Width="27.05"/>
+<Column ss:AutoFitWidth="0" ss:Width="38.55"/>
+<Column ss:AutoFitWidth="0" ss:Width="62.71"/>
+<Column ss:AutoFitWidth="0" ss:Width="19.96"/>
+<Column ss:AutoFitWidth="0" ss:Width="81.30"/>
+<Row ss:Height="19.31">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s0" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="19.31">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" ss:MergeAcross="1" ss:StyleID="s1" >
+<Data ss:Type="String">(Nit: 800245974)</Data>
+</Cell>
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" ss:MergeAcross="5" ss:StyleID="s1" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.65">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s2" >
+<Data ss:Type="String">Pagina 1 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">1          Activo </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">475573840016</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">2561485582486</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">2560839909680</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">476219512822</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">10          Efectivo Y Equivalentes Al Efectivo</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">88608302034</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">1237710214543</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">1247457868021</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">78860648556</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1005          Efectivo Y Equivalentes Al Efectivo (Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">88608302034</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1237710214543</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1247457868021</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">78860648556</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">100505          Caja</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2871400000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">2871400000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10050510          Cajas Menores </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2871400000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">2871400000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">100510          Cuentas De Ahorro</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3214961700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">20002512022</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">19077379395</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4140094327</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051005          Banco CitiBank N° 5123168013</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3214961700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">20002512022</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">19077379395</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4140094327</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">100515          Cuentas Corriente</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">85293340334</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1214836302521</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1225509088626</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">74620554229</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051505          Banco Caja Social N° 5259</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">614046037</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">50161815111</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">50775850813</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">10335</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051510          Banco de Bogota N° 5859</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">226596285</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">22129437000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">21837345800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">518687485</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051515          Banco de Bogota N° 1443</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7473969300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">13154314810</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">20600531573</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">27752537</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051520          Banco BBVA Ricaurte N° 2284</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">4054088084</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">78157953000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">81846758933</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">365282151</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051525          Banco BBVA Centro Andino N° 6628</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">827764490</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">4555940600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4547060800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">836644290</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">10051530          Banco CitiBank N° 12168011</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">72096876138</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1046676842000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1045901540707</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">72872177431</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">11          Otros Activos No Financieros </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">12890789410</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">45361738211</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">45718291321</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">12534236300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105          Otros Activos No Financieros (Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">12890789410</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">45361738211</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">45718291321</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">12534236300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">110505          Activos por Impuestos y Contribuciones o Saldos a Favor</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">12890789410</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">45361738211</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">45718291321</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">12534236300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050505          Retencion en la Fuente</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3925458300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">4121126300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3925460300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4121124300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105050501          Sobre Servicios 3.5 %</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3901924900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1156043500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3733315000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1324653400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">alpopular almacen general de depositos s.a (Id. 860020382)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">55666900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">55666900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1681751600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">315274200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1997025800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bansat s.a.s (Id. 900611233)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">964200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">964200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">204944700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">204944700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">823762900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">113575000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">937337900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">db system (Id. 830039811)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">128205000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">128205000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-3074806700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3733315000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-6808121700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">emllaze systems sas (Id. 900346816)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">192060000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">192060000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">empresariales sas (Id. 805002491)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">505318300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">505318300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">global technology services gts s.a (Id. 830060020)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">175428400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">175428400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones comerciales san german (Id. 830006185)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">342471500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">107895500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">450367000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">rivesegur ltda (Id. 860069212)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">2226000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2226000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4452000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">2574431900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">459346500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">3033778400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">244399700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">29521300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">273921000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tierra habitat ltda (Id. 800039768)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1368000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1368000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">transportadora del meta sas (Id. 822006605)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">171937500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">171937500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105050503          Sobre Servicios 6 %</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">20200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">20200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">citibank (Id. 860051135)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">20200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">20200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105050504          Sobre Rendimientos Financieros </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">23513200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">175700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">85300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">23603600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">citibank (Id. 860051135)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">75400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">175700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">251100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-10300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">85300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-95600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis software &amp; soluciones sas (Id. 800245974)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-1900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-1900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">23450000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">23450000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 2 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105050599          Otras Retenciones Sobre Servicios </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2964907100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">192060000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2772847100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1033894100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">99612500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1133506600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">73069600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">73069600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">370425000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">370425000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">davivienda (Id. 860034313)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2380000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2380000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-2099909600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">192060000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-2291969600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1066015500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1066015500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tech mahindra colombia sas (Id. 830115597)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">41800000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">41800000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050510          Retencion IVA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">936094200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">928568800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1813134500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">51528500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105051005          Retencion IVA 15%</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">936094200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">928568800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1813134500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">51528500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">agropecuaria aliar s.a. (Id. 890207037)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">118662300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">118662300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">almacenes generales de deposito almaviva s.a (Id. 860002153)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">571300000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">571300000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1618437100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">282531900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1900969000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axesat s.a. (Id. 830119051)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">561920000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">561920000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bansat s.a.s (Id. 900611233)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">10138600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">10138600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">185789100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">59499500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">245288600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria eps (Id. 860512237)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">173070800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">173070800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">822229500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">188456300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1010685800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">contact center americas s.a. (Id. 830126395)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">28800000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">28800000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-12532637352</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1813134500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-14345771852</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">empresariales sas (Id. 805002491)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">271467300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">271467300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis software &amp; soluciones sas (Id. 800245974)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-852564500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-852564500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">gapsi americas sas (Id. 900486783)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">62400000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">62400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">nexsys de colombia s.a. (Id. 800035776)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">90419752</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">90419752</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7796242200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">374042300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">8170284500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros comerciales bolivar s.a (Id. 860002180)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">9960000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">9960000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1974539400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">24038800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1998578200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros del estado sa (Id. 860009578)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">25920000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">25920000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050515          Retencion ICA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">272200100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">272200100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105051501          Retencion ICA 6.9 * 1000</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">272200100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">272200100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">agropecuaria aliar s.a. (Id. 890207037)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">34115400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">34115400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">almacenes generales de deposito almaviva s.a (Id. 860002153)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">82031900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">82031900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">411816400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">68402500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">480218900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axesat s.a. (Id. 830119051)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">49168100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">49168100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bansat s.a.s (Id. 900611233)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">4815700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4815700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">20159200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">14405100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">34564300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">210264700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">45626300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">255891000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">db system (Id. 830039811)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">25274700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">25274700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">empresariales sas (Id. 805002491)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">65723700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">65723700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">fiducoldex - proexport colombia (Id. 830054060)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1681300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1681300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">gapsi americas sas (Id. 900486783)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">17940000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">17940000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">global technology services gts s.a (Id. 830060020)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">34584400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">34584400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones comerciales san german (Id. 830006185)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">13462800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">19492900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">32955700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">rivesegur ltda (Id. 860069212)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">438800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">438800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 3 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">secretaria de hacienda distrital (Id. 899999061)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-3096148800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-3096148800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1855233000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">90556700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1945789700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros comerciales bolivar s.a (Id. 860002180)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">2863500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2863500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">284397900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">5819900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">290217800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros del estado sa (Id. 860009578)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7452000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7452000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tech mahindra colombia sas (Id. 830115597)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2622000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2622000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050520          Autoretencion CREE</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">010</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">15652872400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">15652872410</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105052001          Autoretencion CREE 0.8 % </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">010</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">15652872400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">15652872410</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">acdi/voca colombia (Id. 830107665)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">51271400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">22800000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">28471400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ace international co (Id. 44444444)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">13250545179</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">12830853379</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">419691800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ace seguros s.a. (Id. 860026518)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-9777400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">9777400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">agropecuaria aliar s.a. (Id. 890207037)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">29665600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">29665600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">almacenes generales de deposito almaviva s.a (Id. 860002153)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">6120000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">6120000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">alpopular almacen general de depositos s.a (Id. 860020382)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">12723900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">12723900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">133584288</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">133584288</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bansat s.a.s (Id. 900611233)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">11759900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">11759900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">50575976</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">40540976</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">10035000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">citibank (Id. 860051135)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">20659168</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">20659168</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">cognizant us corp (Id. 44444448)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">456277000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">301279800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">154997200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">79984700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">72184700</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7800000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-16527468800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">15643095000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-884373800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">eis group ltda (Id. 4444444012)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3255900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3255900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis software &amp; soluciones sas (Id. 800245974)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">35799234</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">35799234</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">fiducoldex - proexport colombia (Id. 830054060)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7258243</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">6829043</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">429200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">gapsi americas sas (Id. 900486783)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">36513900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">20800000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">15713900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">georgia departament of economic development (Id. 333333333)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7200000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">7200000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones comerciales san german (Id. 830006185)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">158084829</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">112598829</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">45486000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones s3 sas (Id. 900367129)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">413700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">413700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">omagro mexico s d rl de cv (Id. 444444442)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">4788000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4788000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">patrimonios autonomos fiduciaria bogota s.a (Id. 830055897)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">453462900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">453462900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">promexico (Id. 707099)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">4007100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4007100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">rivesegur ltda (Id. 860069212)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1443000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1443000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1286953292</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1188205292</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">98748000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros comerciales bolivar s.a (Id. 860002180)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">3320000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3320000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">391734200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">329720200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">62014000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tierra habitat ltda (Id. 800039768)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">544800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">544800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">transportadora del meta sas (Id. 822006605)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">39300001</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">39300001</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050525          Autorretencion Renta</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7840236900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">23935783111</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">23686636611</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">8089383400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105052501          Autorretencion Renta 0.8%</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">7840236900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">23935783111</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">23686636611</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">8089383400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ace international co (Id. 44444444)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">6811428500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">10071500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">6821500000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">340584000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">79307100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">419891100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">banco de bogota (Id. 860002964)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">432500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">432500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">16295800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">16701600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">32997400</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">citibank (Id. 860051135)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">10800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">10800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 4 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">171600000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">52900000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">224500000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">compensar eps (Id. 860066942)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1466700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1466700</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">corporacion incuba de empresas de base tecnologia antioquia (Id. 811007547)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">768000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">768000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">davivienda (Id. 860034313)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">436153500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">436153500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">db system (Id. 830039811)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">29304000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">29304000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">13969300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">7826267700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">7840237000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">emllaze systems sas (Id. 900346816)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">13968000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">13968000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">empresariales sas (Id. 805002491)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">115501300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">115501300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis llc (Id. 444444401)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">7093745900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">7093745900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis software &amp; soluciones sas (Id. 800245974)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">17041900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">8072341500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">8089383400</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">fiducoldex - proexport colombia (Id. 830054060)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1032700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1123211</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">2155911</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">global technology services gts s.a (Id. 830060020)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">40098000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">40098000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones comerciales san german (Id. 830006185)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">23660300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">24662300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">48322600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">patrimonios autonomos fiduciaria bogota s.a (Id. 830055897)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">128000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">163414600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">291414600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">procolombia  (Id. 890901352)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">7001200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">7001200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">rivesegur ltda (Id. 860069212)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">508800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">508800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1017600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">145081600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">104993200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">250074800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">6747700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">6747700</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tech mahindra colombia sas (Id. 830115597)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">3040000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3040000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">transportadora del meta sas (Id. 822006605)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">6288000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">6288000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">11050599          Sobrantes en Liquidacion Privada de Impuestos</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">189000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">451187500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">640187500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105059902          Saldo a Favor Impuesto sobre las Ventas</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">189000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">449325000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">638325000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">189000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">445600000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">634600000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">formas electricas sas (Id. 900792742)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">3725000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3725000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1105059903          Saldo a Favor Renta CREE</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1862500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1862500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">formas electricas sas (Id. 900792742)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1862500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1862500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">12          Otros Activos Financieros </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">30622200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">355957215</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">386579415</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1205          Otros Activos Financieros (Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">30622200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">355957215</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">386579415</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">120505          Activos fros medidos a vr razonable cambios a resultados </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">30622200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">355957215</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">386579415</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">12050505          Derechos Fiduciarios</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">30622200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">355957215</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">386579415</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1205050501          Fidecomisos de Inversion Moneda Nacional</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">30622200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">55957215</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">86579415</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1205050502          Titulos Valores</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">300000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">300000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">13          Cuentas Comerciales Por Cobrar Y Otras Cuentas Por Cobrar </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">170202627872</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">1097939469617</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">1074052478138</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">194089619351</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1305          Ctas Ciales Por Cobrar Y Otras Ctas Por Cobrar (Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">170202627872</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1097939469617</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1074052478138</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">194089619351</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">130505          Clientes</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">143321561145</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1025029585600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">986463833545</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">181887313200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13050505          Clientes Nacionales</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">35535995100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">138312186900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">164857956100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">8990225900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ace international co (Id. 44444444)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-672000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-672000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">axa colpatria seguros de vida s.a (Id. 830002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">9461761300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">11031123400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">18077898600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2414986100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">bbva seguros colombia s.a (Id. 800226098)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">2337391200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">2337391200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">colpatria medicina prepagada s.a. (Id. 900640334)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">10553847700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">7150792400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">17704640100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">corporacion incuba de empresas de base tecnologia antioquia (Id. 811007547)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">96000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">96000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">davivienda (Id. 860034313)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">92820000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">92820000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">db system (Id. 830039877)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">4200845200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1927607200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">2273238000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">empresariales sas (Id. 805002491)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">10664377300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">10664377300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 5 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">fiducoldex - proexport colombia (Id. 830054060)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1015554500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1015554500</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inversiones comerciales san german (Id. 830006185)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">1446300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">3541064500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">3542510800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">rivesegur ltda (Id. 860069212)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">73458000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">73458000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros colpatria s.a (Id. 860002184)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">14693834900</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">14693834900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">seguros de vida colpatria s.a. (Id. 860002183)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">944344800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">944344800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">tech mahindra colombia sas (Id. 830115597)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">407778000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">407778000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">transportadora del meta sas (Id. 822006605)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">5526562500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">960338700</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4566223800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13050510          Clientes del Exterior</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">107785566045</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">886717398700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">821605877445</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">172897087300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ace international co (Id. 44444444)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">107785566045</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">107113566045</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">672000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">exsis llc (Id. 444444401)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">886717398700</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">714492311400</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">172225087300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">130510          Cuentas Por Cobrar En Grupos Economicos</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">25891403200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">57471905751</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">75774174427</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7589134524</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13051010          Cuentas por Cobrar a Socios</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">25891403200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">57471905751</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">75774174427</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7589134524</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez nuÑez miguel angel (Id. 79297381)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">25891403200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">56868477231</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">75170745907</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7589134524</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez pedraza miguel sebastian (Id. 1032427441)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">603428520</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">603428520</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">130515          Pagos-Gastos Anticipados Y Avances Entregados</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">242901227</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">15406778266</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">11714470166</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">3935209327</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13051505          Anticipos o Avances a Proveedores</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">140401227</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">5909081100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">2249236200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">3800246127</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">aprotech s.a.s (Id. 900250175)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">21402300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">21402300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">autogermana sas (Id. 860509514)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1280000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1280000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">compaÑia papelera nacional s.a.s (Id. 900009495)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">21342100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">21342100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">contreras cruz yuly mariela (Id. 1018482993)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">7200000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">7200000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">corebi sas (Id. 900970265)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1974580000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1974580000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">cruz marquez ivan dario (Id. 71463571)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">19725600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">19725600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">cvr ingenieria del conocimiento sas (Id. 900666105)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">291981600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">291981600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">formas electricas sas (Id. 900792742)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">32422400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">16607500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">49029900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">free lance taller publicitario sas (Id. 901079775)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">34510000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">34510000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">hrc de colombia sa (Id. 830092061)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">581220000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">581220000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">infante cervantes erika mireya (Id. 63515536)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-50000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-50000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">inmunizadora de maderas del oriente ltda (Id. 860053330)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">9329100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">9329100</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">morales aguilar ana veronica (Id. 52850271)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">370000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">370000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">nuÑez rosa emma (Id. 23481161)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">554895600</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">554895600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">regus colombia ltda (Id. 830057144)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">107582027</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">107582027</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">sena (Id. 899999034)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">480884100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">480884100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">termales santa monica (Id. 830504590)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">295800000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">295800000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13051510          Anticipos o Avances a Contratistas</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">760044300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">727914300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">32130000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">albarracin giraldo jose everardo (Id. 79311594)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">90000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">90000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">compensar eps (Id. 860066942)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">87914300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">87914300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">contreras cruz yuly mariela (Id. 1018482993)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">32130000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">32130000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">hernandez hurtado abelardo (Id. 80497077)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">150000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">150000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">joya leon german (Id. 4287159)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">400000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">400000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13051515          Anticipos o Avances a Trabajadores</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">102500000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">8737652866</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">8737319666</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">102833200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">alvarez porras santiago (Id. 1022390411)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">52500000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">52500000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">alvis valencia paola jineth (Id. 52823516)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">114500000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">114500000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">arbelaez barbosa ana lucia (Id. 51720027)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1370000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1370000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">barrios amorocho roger (Id. 80182894)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">254000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">254000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 6 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">barrios leguizamon ana maria (Id. 1010184394)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1036630000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1036630000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">contreras cruz yuly mariela (Id. 1018482993)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">118990000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">118990000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">cuestas beltran juan manuel (Id. 1110542558)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">66666800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">33333200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">guerrero piÑeros cristhian felipe (Id. 1019045571)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">106250000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">106250000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">hernandez rodriguez manuel eduardo (Id. 79853277)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">254000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">254000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">infante cervantes erika mireya (Id. 63515536)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">50000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">50000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez pedraza ariana valentina (Id. 1019131071)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">778695166</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">778695166</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez pedraza miguel sebastian (Id. 1032427441)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">30000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">30000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez villanueva tulio e. (Id. 1013642982)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">61180000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">61180000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">leon marquez sehila sneider (Id. 37331356)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">60000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">60000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">martinez avila chrystiam david (Id. 1015406161)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">94850000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">94850000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">martinez martinez cristian david (Id. 1015422149)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1500000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">1500000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">mendieta silva juan camilo (Id. 1032370759)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">56600000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">56600000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">mendoza cantillo guillermo junior (Id. 72275345)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">276269000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">276269000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">meza santos jonathan (Id. 1095798415)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">18000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">18000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">monroy ramirez juan david (Id. 80074735)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">290360000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">290360000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">nieto guerrero otto darling (Id. 569462)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">270000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">270000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">pedraza rueda clara isabel (Id. 51738391)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">60097000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">60097000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">pelaez puentes johana karina (Id. 1075227879)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">60000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">60000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">quintero reyes carmen aleida (Id. 51638875)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1195587300</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1195587300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">ramirez celis julian andres (Id. 79995836)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">162000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">162000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">sanchez pinto dulieth (Id. 1023948338)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">127344400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">127344400</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">sarmiento villamil diego rodolfo (Id. 11189932)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">443800000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">443800000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">suarez laboton orlando (Id. 79342363)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1370000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">1370000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">velasquez cendales nadia catalina (Id. 1069740015)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">27000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">27000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">130585          Préstamos A Particulares</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">746762300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">31200000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">677962300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">13058505          Con Garantia Personal</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">746762300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">31200000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">677962300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">albarracin giraldo jose everardo (Id. 79311594)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">68800000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">31200000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">100000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">gapsi americas sas (Id. 900486783)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">554255000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">554255000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">jimenez aguilar jose coronado (Id. 1108572)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">123707300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">123707300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">16          Propiedades</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">131805053200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">45811169100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">146295660300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">31320562000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610          Propiedades (No Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">131805053200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">45811169100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">146295660300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">31320562000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">161005          Propiedades, Planta Y Equipo</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">131805053200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">45811169100</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">146295660300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">31320562000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">16100505          Construcciones y Edificaciones </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">110341246500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">17874820400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">106901349800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">21314717100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610050501          Costo - Construcciones y Edificaciones </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">51680809600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">40680809600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">11000000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610050502          Valorizacion - Construcciones y Edificaciones </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">67733130400</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">56733130400</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">11000000000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610050503          Depreciacion (CR) - Construcciones y Edificaciones </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-9072693500</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">17874820400</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">9487409800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-685282900</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">16100515          Equipo de Oficina </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">176117700</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">176117700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610051501          Costo -Muebles y Enseres </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">4523540300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">4523540300</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610051503          Depreciacion (CR) - Muebles y Enseres </Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-4347422600</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-4347422600</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">16100520          Equipo de Comunicacion y Computacion</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">8032393100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1959514200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">9645475200</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">346432100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610052001          Costo - Equipo de Comunicacion y Computacion</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">26223375200</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">1959514200</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">344979600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">27837909800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610052003          Depreciacion (CR) - Equipo de Comunicacion y Computacion</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-18190982100</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">9300495600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-27491477700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">16100525          Flota y Equipo de Transporte</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">13255295900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">25976834500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">29748835300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">9483295100</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="7.27">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.75">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s14" >
+<Data ss:Type="String">EXSIS SOFTWARE &amp; SOLUCIONES SAS</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s13" >
+<Data ss:Type="String">Balance de Prueba Niif ( de 01/ENE/2018 a 31/DIC/2018 )</Data>
+</Cell>
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">Pagina 7 de 7</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">CUENTA</Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">NOMBRE DE LA CUENTA</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s17" >
+<Data ss:Type="String">SALDO INICIAL</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s17" >
+<Data ss:Type="String">DÉBITOS</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s17" >
+<Data ss:Type="String">CRÉDITOS</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s17" >
+<Data ss:Type="String">NUEVO SALDO</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610052501          Costo - Autos, Camionetas y Motocicletas</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">25386096800</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">14390000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">14390000000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">25386096800</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1610052503          Depreciacion (CR) - Autos, Camionetas y Motocicletas</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s12" >
+<Data ss:Type="Number">-12130800900</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">11586834500</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">15358835300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s12" >
+<Data ss:Type="Number">-15902801700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">18          Intangibles</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">42296445300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">107888933800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">21281911900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">128903467200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1810          Intangibles (No Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">42296445300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">107888933800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">21281911900</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">128903467200</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">181010          Activos Intangibles Distintos De La Plusvalía</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">42296445300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">12688933800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">16918578600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">38066800500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">18101005          Derechos</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">42296445300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">12688933800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">16918578600</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">38066800500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1810100501          Derechos de Autor</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">33837156300</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">8459289000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4229644800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">38066800500</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1810100502          Amortizacion de Derechos</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">8459289000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">4229644800</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">12688933800</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">181015          Bienes Recibidos en Arrendamiento Financiero</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">95200000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4363333300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">90836666700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">18101505          Arrendamiento Financiero</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">95200000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4363333300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">90836666700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="15.26">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1810150501          Leasing Financiero</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">95200000000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">4363333300</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">90836666700</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s8" >
+<Data ss:Type="String">19          Activos Por Impuestos</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s7" >
+<Data ss:Type="Number">29740000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s7" >
+<Data ss:Type="Number">26418100000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="Number">26033700000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s7" >
+<Data ss:Type="Number">30124400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.86">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">1905          Activos Por Impuestos (Corriente)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">29740000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">26418100000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">26033700000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">30124400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">190505          Activos Por Impuestos de renta y complementarios</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">29740000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">26418100000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">26033700000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">30124400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">19050505          Anticipo de Renta y Complementarios</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">29740000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">26418100000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">26033700000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">30124400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="3" ss:StyleID="s11" >
+<Data ss:Type="String">direccion de impuestos y aduanas nacionales (Id. 800197268)</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="Number">29740000000</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s10" >
+<Data ss:Type="Number">26418100000</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s10" >
+<Data ss:Type="Number">26033700000</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s10" >
+<Data ss:Type="Number">30124400000</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="50.24">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" ss:MergeAcross="9" ss:StyleID="s6" >
+<Data ss:Type="String">Este informe se elaboró el 19 de MARZO del año 2019, 11:33 AM</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<PageMargins x:Bottom="0.38" x:Left="0.19" x:Right="0.19" x:Top="0.38"/>
+</PageSetup>
+</WorksheetOptions>
+<PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+<RowBreaks>
+<RowBreak>
+<Row>48</Row>
+</RowBreak>
+<RowBreak>
+<Row>97</Row>
+</RowBreak>
+<RowBreak>
+<Row>146</Row>
+</RowBreak>
+<RowBreak>
+<Row>195</Row>
+</RowBreak>
+<RowBreak>
+<Row>244</Row>
+</RowBreak>
+<RowBreak>
+<Row>293</Row>
+</RowBreak>
+</RowBreaks>
+</PageBreaks>
+</Worksheet>
+</Workbook>
